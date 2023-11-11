@@ -1,5 +1,5 @@
 /*
-Program for sorting array of strings from commandline
+Program for sorting array of strings
 */
 
 public class Sortstrings 
