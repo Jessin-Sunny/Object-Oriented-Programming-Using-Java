@@ -1,13 +1,13 @@
-/*hello.txt contains
-
-hello
-I am here
-Good
-Thank You
-
+/*
+File Operations : 
+Creating
+Opening
+Writing
+Closing
+Reading
  */
 import java.io.*;
-class Readingfile
+public class WorkingFile
 {
     public static void main(String[] args)
     {
@@ -26,6 +26,7 @@ class Readingfile
                     writer.write(c);
                 }
             } while(c!='1');
+            //closing File
             writer.close();
         }
         catch(FileNotFoundException not)
@@ -51,6 +52,7 @@ class Readingfile
                     System.out.print((char)i);
                 }
             }
+            //closingFile
             reader.close();
         }
         catch(FileNotFoundException not)
