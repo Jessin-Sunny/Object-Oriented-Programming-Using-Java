@@ -1,3 +1,4 @@
+/*Java program for reading and writing file using FileReader and FileWriter*/
 import java.io.*;
 
 public class Pgm7 
