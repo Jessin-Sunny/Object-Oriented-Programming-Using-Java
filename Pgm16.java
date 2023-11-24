@@ -51,7 +51,10 @@ class DoubleLinkedList
                 if (temp.prev == null) // deleting node is head node
                 {
                     head = temp.next;
-                    head.prev = null;
+                    if(temp.next!=null)
+                    {
+                        head.prev = null;
+                    }
                 } else if (temp.next == null) // deleting node is last node
                 {
                     temp = temp.prev;
